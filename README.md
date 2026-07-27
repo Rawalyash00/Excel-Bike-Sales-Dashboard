@@ -1,5 +1,48 @@
-# Excel-Bike-Sales-Dashboard
+# Excel — Bike Sales Dashboard
+
 ![Bike Sales Dashboard](https://github.com/user-attachments/assets/948a3047-0404-4887-b689-8fdb5c39c4e3)
 
-The focal point of this project is to create an Excel dashboard to analyze bike sales data, aiming to gain insights into sales performance across different products, regions, and time periods. The primary goal is to explore various factors influencing bike sales, such as product popularity, pricing strategies, marketing campaigns, and seasonal trends. Through this analysis, we seek to identify key patterns, correlations, and opportunities for optimization in sales strategies and inventory management. The dataset utilized for this Excel dashboard is sourced from sales records tracking bike sales, including product details, sales volume, revenue, and customer demographics.
+> **About this project.** A guided project — I worked through a public bike-sales
+> exercise to practise Excel data cleaning, pivot tables and dashboard layout.
+> Kept here as a learning artifact. For dashboards built for real stakeholders, see my
+> [Power BI HR dashboard](https://github.com/yaashhrawal/powerbi-hr-analytics-dashboard);
+> professionally I built Tableau KPI dashboards at MedNext Pharma and DoorDash revenue
+> reporting at ArcGate.
 
+An Excel dashboard over bike sales data, analysing what sells, to whom, and where.
+
+**Files:** `Bike Sales DashBoard.xlsx` (dashboard) · `Excel Project Dataset.xlsx` (raw data) · `Bike Sales Dashboard.png` (preview)
+
+---
+
+## What it shows
+
+- **Purchase behaviour by demographic** — income, age bracket, marital status, education
+- **Commute distance vs purchase** — does travel distance predict buying a bike
+- **Regional breakdown** — sales across geographies
+- **Gender and age-band comparison** of average income among purchasers
+
+Slicers make the whole dashboard filterable — region, education, marital status.
+
+---
+
+## How it was built
+
+| Step | |
+|---|---|
+| **Cleaning** | Removed duplicates, standardised categorical values, corrected data types |
+| **Transformation** | Derived age brackets from raw age; abbreviated long category labels |
+| **Analysis** | Pivot tables per question |
+| **Presentation** | Charts wired to pivots, slicers for cross-filtering, single-screen layout |
+
+**Tool:** Microsoft Excel — pivot tables, pivot charts, slicers, `IF` / `VLOOKUP` for derived fields.
+
+---
+
+## Opening it
+
+Open `Bike Sales DashBoard.xlsx` and go to the **Dashboard** sheet. `Excel Project Dataset.xlsx` holds the source data if you want to rebuild it from scratch.
+
+---
+
+Built by [Yash Rawal](https://github.com/yaashhrawal).
